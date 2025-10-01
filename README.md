@@ -27,5 +27,8 @@ Matematika tantárgy érdemjegyét bekérve kiírja azt szövegesen, switch hasz
 
 ## Seminar 2
 
-### Practice 1
+### Practice 8
 Írjunk egy programot, amely egy bekért betű kis és nagybetűs változatait adja meg!
+
+### Practice 9
+Írjunk egy programot, amely egy karakterről eldönti, hogy betű, szám, vagy egyéb jel!
