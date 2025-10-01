@@ -16,5 +16,8 @@ Betű kiírása ASCII számmal user input alapján
 Bekér két számot, majd eldönti, hogy páros, vagy páratlan.
 
 ### Practice 5
-matematika tantárgy érdemjegyét bekérve kiírja azt szövegesen.
+Matematika tantárgy érdemjegyét bekérve kiírja azt szövegesen.
 
+### Practice 6
+Matematika tantárgy érdemjegyét bekérve kiírja azt szövegesen. 
+Egymásba ágyazott if else ágakkal.
