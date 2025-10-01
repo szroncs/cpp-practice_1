@@ -7,3 +7,10 @@
 négyzet kerületének kiszámítására!
 
 ### Practice 2
+Téglalap területének kiszámítása user input alapján
+
+### Practice 3
+Betű kiírása ASCII számmal user input alapján
+
+### Practice 4
+Bekér két számot, majd eldönti, hogy páros, vagy páratlan.
