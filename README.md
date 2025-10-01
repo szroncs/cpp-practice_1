@@ -28,3 +28,4 @@ Matematika tantárgy érdemjegyét bekérve kiírja azt szövegesen, switch hasz
 ## Seminar 2
 
 ### Practice 1
+Írjunk egy programot, amely egy bekért betű kis és nagybetűs változatait adja meg!
