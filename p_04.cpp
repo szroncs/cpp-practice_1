@@ -6,19 +6,19 @@
 using namespace std;
 
 int main() {
-    int a, b;
+    int num;
     cout << "Kerem az elso szamot: ";
-    cin >> a;
+    cin >> num;
     cout << endl;
-    if (a % 2 == 0) {
+    if (num % 2 == 0) {
         cout << "Az elso szam paros." << endl;
     } else {
         cout << "Az elso szam paratlan." << endl;
     }
     cout << endl << "Kerem a masodik szamot: ";
-    cin >> b;
+    cin >> num;
     cout << endl;
-    if (b % 2 == 0) {
+    if (num % 2 == 0) {
         cout << "Az masodik szam paros." << endl;
     } else {
         cout << "Az masodik szam paratlan." << endl;
