@@ -51,3 +51,6 @@ ismétlési feltétel igaznak bizonyul. Ciklusszerkezetek (iterációk)
 ***
 ### Practice 10
 Írjunk egy programot, amely egymás alá tízszer kiírja a nevünket!
+
+### Practice 11
+Írjunk egy programot, amely egy bekért egész számig kiszámítja a számok összegét!
