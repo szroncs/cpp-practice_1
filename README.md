@@ -21,3 +21,10 @@ Matematika tantárgy érdemjegyét bekérve kiírja azt szövegesen.
 ### Practice 6
 Matematika tantárgy érdemjegyét bekérve kiírja azt szövegesen. 
 Egymásba ágyazott if else ágakkal.
+
+### Practice 7
+Matematika tantárgy érdemjegyét bekérve kiírja azt szövegesen, switch használatával.
+
+## Seminar 2
+
+### Practice 1
