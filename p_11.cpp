@@ -8,7 +8,7 @@ using namespace std;
 int main() {
     int num, sum = 0;
 
-    cout << "Kerem egy egyszeru szamot: ";
+    cout << "Kerem egy egesz szamot: ";
     cin >> num;
     cout << endl;
 

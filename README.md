@@ -54,3 +54,6 @@ ismétlési feltétel igaznak bizonyul. Ciklusszerkezetek (iterációk)
 
 ### Practice 11
 Írjunk egy programot, amely egy bekért egész számig kiszámítja a számok összegét!
+
+### Practice 12
+Írjunk programot amely bekéri öt nap hőmérsékletét (egész értékben) és kiszámítja az átlaghőmérsékletet!
