@@ -31,4 +31,23 @@ Matematika tantárgy érdemjegyét bekérve kiírja azt szövegesen, switch hasz
 Írjunk egy programot, amely egy bekért betű kis és nagybetűs változatait adja meg!
 
 ### Practice 9
-Írjunk egy programot, amely egy karakterről eldönti, hogy betű, szám, vagy egyéb jel!
+Írjunk egy programot, amely egy karakterről eldönti, hogy betű, szám, vagy egyéb jel!  
+
+***
+
+### Learning material - Ciklusok
+Bizonyos utasítások automatikus ismétlését biztosító programszerkezetet
+iterációnak vagy ciklusnak nevezzük, az ismétlés mindaddig tart, amíg az
+ismétlési feltétel igaznak bizonyul. Ciklusszerkezetek (iterációk)
+
+* számlálós ciklus – for (kifejezés) {utasítás}
+* elöl tesztelős ciklus – while (kifejezés) {utasítás}
+* hátul tesztelős ciklus – do {utasítás} while (kifejezés)
+
+> - {utasítás} elnevezése – ciklusmag, ciklus törzse     
+> - utasításon belüli változó definíció – érvényességi köre csak az utasításon belül  
+
+
+***
+### Practice 10
+Írjunk egy programot, amely egymás alá tízszer kiírja a nevünket!
