@@ -1,19 +1,19 @@
 //
-// Created by blindcoalminer on 10/1/25.
-// Írjunk egy programot, amely egy bekért egész számig kiszámítja a számok összegét!
+// Created by blindcoalminer on 2025. 10. 01..
+// Írjunk egy programot, amely egy bekért egész számig kiszámítja a számok összegét! - `while` ciklussal.
 
 #include <iostream>
 using namespace std;
 
 int main() {
-    int num, sum = 0;
-
+    int i, sum = 0;
     cout << "Kerem egy egesz szamot: ";
-    cin >> num;
+    cin >> i;
     cout << endl;
 
-    for (int i = 1; i <= num; i++) {
+    while (i > 0) {
         sum += i;
+        i--;
     }
 
     cout << "A szamok osszege: " << sum << endl;
