@@ -5,12 +5,53 @@
 ### Practice 1
 Írjon egy egyszerű programot, egy negyvenöt egység oldalhosszúságú
 négyzet kerületének kiszámítására!
+```c++
+#include <iostream>
+using namespace std;
+
+
+int main() {
+    int hossz = 45;
+    cout << "A negyzet kerulete: " << hossz * 4 << endl;
+    return 0;
+}
+```
 
 ### Practice 2
 Téglalap területének kiszámítása user input alapján
+```c++
+int main() {
+    int a, b;
+    cout << "Adja meg a teglalap oldalait: " << endl;
+    cin >> a >> b;
+    cout << "A teglalap terulete: " << a * b << endl;
+    cin.ignore().get(); // wait for user input before closing, 
+    // similar to system("pause") but that only works on windows
+    return 0;
+}
+```
 
 ### Practice 3
 Betű kiírása ASCII számmal user input alapján
+```c++
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i;
+    char betu;
+    cout << "Adjon meg egy betut: " << endl;
+    cin >> betu;
+    i = betu;
+    cout << "A megadott betu ASCII száma: " << i << ", az eredeti betu: " << betu << endl;
+    cout << endl;
+
+    cout << "A program vege, nyomjon egy billentyut a kilepeshez..." << endl;
+    cin.ignore().get(); // wait for user input before closing, 
+    // similar to system("pause") but that only works on windows
+    return 0;
+}
+```
 
 ### Practice 4
 Bekér két számot, majd eldönti, hogy páros, vagy páratlan.
