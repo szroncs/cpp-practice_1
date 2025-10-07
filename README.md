@@ -55,24 +55,182 @@ int main() {
 
 ### Practice 4
 Bekér két számot, majd eldönti, hogy páros, vagy páratlan.
+```c++
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cout << "Kerem az elso szamot: ";
+    cin >> num;
+    cout << endl;
+    if (num % 2 == 0) {
+        cout << "Az elso szam paros." << endl;
+    } else {
+        cout << "Az elso szam paratlan." << endl;
+    }
+    cout << endl << "Kerem a masodik szamot: ";
+    cin >> num;
+    cout << endl;
+    if (num % 2 == 0) {
+        cout << "Az masodik szam paros." << endl;
+    } else {
+        cout << "Az masodik szam paratlan." << endl;
+    }
+    cin.ignore().get();
+
+    return 0;
+}
+```
 
 ### Practice 5
 Matematika tantárgy érdemjegyét bekérve kiírja azt szövegesen.
+```c++
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cout << "Kerem az erdemjegyet: " << endl;
+    cin >> num;
+    cout << endl;
+    if (num < 1 || num > 5 ) {
+        cout << "Nem megfelelo szamot adott meg." << endl;
+    }
+
+    if (num == 1) {cout << "Elegtelen" << endl;}
+    if (num == 2) {cout << "Elegseges" << endl;}
+    if (num == 3) {cout << "Kozepes" << endl;}
+    if (num == 4) {cout << "Jo" << endl;}
+    if (num == 5) {cout << "Jeles" << endl;}
+
+    cin.ignore().get();
+    return 0;
+}
+```
+
 
 ### Practice 6
 Matematika tantárgy érdemjegyét bekérve kiírja azt szövegesen. 
 Egymásba ágyazott if else ágakkal.
 
+```c++
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cout << "Kerem az erdemjegyet: " << endl;
+    cin >> num;
+    cout << endl;
+    if (num < 1 || num > 5) {
+        cout << "Nem megfelelo szamot adott meg." << endl;
+    }
+    if (num == 1) {cout << "Elegtelen" << endl;} else {
+        if (num == 2) {cout << "Elegseges" << endl;} else {
+            if (num == 3) {cout << "Kozepes" << endl;} else {
+                if (num == 4) {cout << "Jo" << endl;} else {
+                    if (num == 5) {cout << "Jeles" << endl;}
+                }
+            }
+        }
+    }
+
+    cin.ignore().get();
+    return 0;
+}
+```
+
 ### Practice 7
 Matematika tantárgy érdemjegyét bekérve kiírja azt szövegesen, switch használatával.
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cout << "Kerem az erdemjegyet: " << endl;
+    cin >> num;
+    cout << endl;
+    switch (num) {
+        case 1:
+            cout << "Elegtelen" << endl;
+            break;
+        case 2:
+            cout << "Elegseges" << endl;
+            break;
+        case 3:
+            cout << "Kozepes" << endl;
+            break;
+        case 4:
+            cout << "Jo" << endl;
+            break;
+        case 5:
+            cout << "Jeles" << endl;
+            break;
+        default:
+            cout << "Nem megfelelo szamot adott meg." << endl;
+    }
+
+    cin.ignore().get();
+    return 0;
+}
+```
 
 ## Seminar 2
 
 ### Practice 8
 Írjunk egy programot, amely egy bekért betű kis és nagybetűs változatait adja meg!
 
+```c++
+#include <iostream>
+using namespace std;
+
+int main() {
+    char letter, nagy, kicsi;
+    cout << "Kerem a betut: ";
+    cin >> letter;
+    cout << endl;
+    nagy = toupper(letter);
+    kicsi = tolower(letter);
+    cout << "Kisbetu: " << nagy << endl;
+    cout << "Nagybetu: " << kicsi << endl;
+
+    cout << endl << "Press any key to exit";
+    cin.ignore().get();
+    return 0;
+}
+```
+
 ### Practice 9
 Írjunk egy programot, amely egy karakterről eldönti, hogy betű, szám, vagy egyéb jel!  
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main() {
+    char k;
+    cout << "Kerem egy tetszoleges karaktert: ";
+    cin >> k;
+    int x = isalpha(k);
+    int y = isdigit(k);
+    if (x != 0) {
+        cout << "A megadott karakter betu" << endl;
+    } else {
+        if (y != 0) {
+            cout << "A megadott karakter szam" << endl;
+        } else {
+            cout << "A megadott karakter nem betu es nem szam" << endl;
+        }
+    }
+
+    cout << endl << "Press any key to exit";
+    cin.ignore().get();
+    return 0;
+}
+```
 
 ***
 
